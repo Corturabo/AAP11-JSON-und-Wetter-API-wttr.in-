@@ -10,3 +10,4 @@ data = json.loads(json_)
 
 temperatur = data['current_condition'][0]['temp_C']
 print(f"\nTemperatur in Celsius: {temperatur}°C")
+
